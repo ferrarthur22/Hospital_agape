@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Agendamento de Consultas</title>
+</head>
+<body>
+    <h1>Agendamento de Consultas</h1>
+    <form action="agendar.php" method="post">
+        <label for="medico">Médico:</label>
+
+        <label for="paciente_nome">Nome do Paciente:</label>
+        <input type="text" id="paciente_nome" name="paciente_nome" required>
+        <br>
+        <label for="data_hora">Data e Hora:</label>
+        <input type="datetime-local" id="data_hora" name="data_hora" required>
+        <br>
+        <input type="submit" value="Agendar">
+    </form>
+</body>
+</html>

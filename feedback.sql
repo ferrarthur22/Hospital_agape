@@ -1,0 +1,6 @@
+CREATE TABLE feedbacks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    paciente_nome VARCHAR(100),
+    comentario TEXT,
+    data TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
